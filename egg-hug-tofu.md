@@ -2,7 +2,7 @@
 
 #vegetarian #chinese #tofu #doufu #scallion
 
-https://www.xiaohongshu.com/explore/6419a69a00000000130007ca?xsec_token=ABSiTb4Y635mQJiKTgUilusx_vZOVZjMub1kBj1JVriMA=&xsec_source=pc_user&source=web_user_page
+[source](https://www.xiaohongshu.com/explore/6419a69a00000000130007ca?xsec_token=ABSiTb4Y635mQJiKTgUilusx_vZOVZjMub1kBj1JVriMA=&xsec_source=pc_user&source=web_user_page)
 
 ## Ingredients
 

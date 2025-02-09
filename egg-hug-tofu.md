@@ -3,14 +3,18 @@
 #vegetarian #chinese #tofu #doufu #scallion
 
 https://www.xiaohongshu.com/explore/6419a69a00000000130007ca?xsec_token=ABSiTb4Y635mQJiKTgUilusx_vZOVZjMub1kBj1JVriMA=&xsec_source=pc_user&source=web_user_page
+
 ## Ingredients
+
 ### Stir fry
 - soft tofu (not silken)
 - 4 eggs beaten
+
 ### Aromatics (to taste)
 - garlic
 - chilli
 - spring onion
+
 ### Sauce
 *spoon size looks like about 1 1/2 - 2 teaspoons*
 - half spoon sugar
@@ -20,6 +24,7 @@ https://www.xiaohongshu.com/explore/6419a69a00000000130007ca?xsec_token=ABSiTb4Y
 - half spoon oyster
 - 1 spoon corn flour
 - half bowl water
+
 ## Method
 *Whole process on high heat*
 - mix sauce ingredients

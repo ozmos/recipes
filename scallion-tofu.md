@@ -4,6 +4,7 @@
 
 ## Ingredients
 - 1 piece lao doufu (hard tofu) (approx 300g)
+
 ### Sauce
 - 2 spoons light soy
 - 1 spoon oyster sauce

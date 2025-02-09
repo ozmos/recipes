@@ -2,6 +2,8 @@
 
 #scallion #green-onion #tofu #chinese #vegetarian #doufu
 
+[source](https://www.xiaohongshu.com/explore/65d45dcd0000000001028abc?xsec_token=ABkDairmsohiLA2L_qAOqrIeW9kM2ozBSyvBeAIT2d5Uc=&xsec_source=)
+
 ## Ingredients
 - 1 piece lao doufu (hard tofu) (approx 300g)
 

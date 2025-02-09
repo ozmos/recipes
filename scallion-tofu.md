@@ -1,7 +1,5 @@
 # Scallion tofu
 
-#scallion #green-onion #tofu #chinese #vegetarian #doufu
-
 [source](https://www.xiaohongshu.com/explore/65d45dcd0000000001028abc?xsec_token=ABkDairmsohiLA2L_qAOqrIeW9kM2ozBSyvBeAIT2d5Uc=&xsec_source=)
 
 ## Ingredients
@@ -23,3 +21,6 @@
 - add tofu to pan and break up with spatula
 - pan fry to both sides golden colour
 - pour sauce in pan, cook one minute stirring
+
+## Tags
+#scallion #green-onion #tofu #chinese #vegetarian #doufu

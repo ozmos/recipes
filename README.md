@@ -5,3 +5,4 @@ Translated from xiaohongshu or adapted or even copied from other recipes on the 
 - [Egg hug tofu](egg-hug-tofu)
 - [Scallion tofu](scallion-tofu)
 - [Broccoli beef](broccoli-beef)
+- [Garlic Broccoli](garlic-broccoli)

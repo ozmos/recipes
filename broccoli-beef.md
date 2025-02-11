@@ -41,4 +41,4 @@
 - Serve immediately over rice and garnish with sesame seeds.
 
 ## Tags
-#beef #chinese #stir-fry #broccoli
+#beef #chinese-american #stir-fry #broccoli

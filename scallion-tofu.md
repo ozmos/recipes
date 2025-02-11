@@ -1,4 +1,4 @@
-# Scallion tofu
+# Scallion tofu (Cōng shāo dòufu 葱烧豆腐)
 
 [source](https://www.xiaohongshu.com/explore/65d45dcd0000000001028abc?xsec_token=ABkDairmsohiLA2L_qAOqrIeW9kM2ozBSyvBeAIT2d5Uc=&xsec_source=)
 

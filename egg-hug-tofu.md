@@ -1,4 +1,4 @@
-# Egg hug tofu
+# Egg hug tofu (Jīdàn bào dòufu 鸡蛋抱豆腐)
 
 [source](https://www.xiaohongshu.com/explore/6419a69a00000000130007ca?xsec_token=ABSiTb4Y635mQJiKTgUilusx_vZOVZjMub1kBj1JVriMA=&xsec_source=pc_user&source=web_user_page)
 

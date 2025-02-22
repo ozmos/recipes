@@ -6,3 +6,4 @@ Translated from xiaohongshu or adapted or even copied from other recipes on the 
 - [Scallion tofu](scallion-tofu)
 - [Broccoli beef](broccoli-beef)
 - [Garlic Broccoli](garlic-broccoli)
+- [Stir Fried Tomato Eggs](stir-fried-tomato-eggs)

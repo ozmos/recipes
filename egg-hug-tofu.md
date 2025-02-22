@@ -24,10 +24,13 @@
 - half bowl water
 
 ## Method
-*Whole process on high heat*
+
+### Preparation
 - mix sauce ingredients
 - dice tofu rectangular
 - pour eggs over tofu
+
+### Cooking *Whole process on high heat*
 - heat oil in wok
 - when oil hot add tofu and eggs mixture
 - let it set 

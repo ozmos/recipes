@@ -18,9 +18,12 @@
 - heat oil
 - add salt to prevent sticking
 - set to medium heat
-- add tofu to pan and break up with spatula
+- add tofu to pan and break up with spatula*
 - pan fry to both sides golden colour
 - pour sauce in pan, cook one minute stirring
+
+## Notes
+- Tofu can be presliced first if a neater appearance is desired. This may also help prevent the tofu sticking to the pan.
 
 ## Tags
 #scallion #green-onion #tofu #chinese #vegetarian #doufu

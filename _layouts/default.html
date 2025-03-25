@@ -37,7 +37,19 @@
       </header>
       <section>
 
+      {% if page.date %}
+      <small>{{ page.date | date: "%-d %B %Y" }}</small>
+      {% endif %}
+
+      {% if page.source %}
+        <p class="view">Original: <a href="{{ page.source }}">{{ page.source }}</a></p>
+      {% endif %}
+
       {{ content }}
+
+      {% if page.tags %}
+        <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+      {% endif %}
 
       </section>
       <footer>

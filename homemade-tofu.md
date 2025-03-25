@@ -6,7 +6,7 @@ tags:
     - xiahongshu
 date: 2025-03-21
 source: http://xhslink.com/a/90m567Qrubn8
-post_title: 'Homemade Tofu (Jiācháng dòufu 家常豆腐)'
+title: 'Homemade Tofu (Jiācháng dòufu 家常豆腐)'
 ---
 
 ## Ingredients

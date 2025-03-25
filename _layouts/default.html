@@ -37,23 +37,23 @@
       </header>
       <section>
 
-      {% if page.post_title %}
-        <h1 class="post-title">{{ page.post_title }}</h1>
-      {% endif %}
+        {% if page.title %}
+          <h1 class="post-title">{{ page.title }}</h1>
+        {% endif %}
 
-      {% if page.date %}
-        <small>{{ page.date | date: "%-d %B %Y" }}</small>
-      {% endif %}
+        {% if page.date %}
+          <small>{{ page.date | date: "%-d %B %Y" }}</small>
+        {% endif %}
 
-      {% if page.source %}
-        <p class="view">Original: <a href="{{ page.source }}">{{ page.source }}</a></p>
-      {% endif %}
+        {% if page.source %}
+          <p class="view">Original: <a href="{{ page.source }}">{{ page.source }}</a></p>
+        {% endif %}
 
-      {{ content }}
+        {{ content }}
 
-      {% if page.tags %}
-        <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-      {% endif %}
+        {% if page.tags %}
+          <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+        {% endif %}
 
       </section>
       <footer>

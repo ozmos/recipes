@@ -1,6 +1,14 @@
-# Garlic Broccoli Stir-fry (Chinese xī lán huā 西兰花)
+---
+title: 'Garlic Broccoli Stir-fry (Chinese xī lán huā 西兰花)'
+source: https://www.xiaohongshu.com/explore/679b625b000000002503f27a
+tags:
+    - chinese 
+    - broccoli 
+    - garlic 
+    - vegetarian 
+    - vegetables
 
-[Source](https://www.xiaohongshu.com/explore/679b625b000000002503f27a?xsec_token=AB0esMSAP4F693SeNgByctORYZXGRCSNKICFITfohuoOU=&xsec_source=pc_collect)
+---
 
 ## Ingredients
 
@@ -37,5 +45,3 @@
 - Stir in broccoli until well coated in sauce
 - Serve with white rice
 
-## Tags
-#chinese #broccoli #garlic #vegetarian #vegetables

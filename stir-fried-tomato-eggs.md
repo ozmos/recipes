@@ -1,6 +1,10 @@
-# Stir Fried Tomato and Eggs (Fānqié chǎo jīdàn 番茄炒鸡蛋)
-
-[Source](https://www.xiaohongshu.com/discovery/item/678930c30000000021001667?source=webshare&xhsshare=pc_web&xsec_token=ABTeQ8UCYq9BoKh4YKpE7ushTBk54IsRUR1TNA5Y1Fqws=&xsec_source=pc_share)
+---
+title: 'Stir Fried Tomato and Eggs (Fānqié chǎo jīdàn 番茄炒鸡蛋)'
+source: https://www.xiaohongshu.com/discovery/item/678930c30000000021001667?source=webshare&xhsshare=pc_web&xsec_token=ABTeQ8UCYq9BoKh4YKpE7ushTBk54IsRUR1TNA5Y1Fqws=&xsec_source=pc_share
+tags:
+    - eggs 
+    - vegetarian
+---
 
 ## Ingredients
 - 2 tbs cooking oil
@@ -15,6 +19,3 @@
 - Break up eggs in wok with spatula then put eggs aside
 - Stir fry tomatoes with sugar and salt until softened, add a little water if it looks too dry
 - Put eggs back in and stir fry for a minute then serve
-
-## Tags
-#eggs #vegetarian

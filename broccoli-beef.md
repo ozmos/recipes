@@ -1,6 +1,13 @@
-# Beef & Broccoli
-
-[Source](https://www.recipetineats.com/chinese-beef-and-broccoli-extra-saucy-take-out-style/?utm_source=pocket_shared)
+---
+title: 'Beef & Broccoli'
+source: https://www.recipetineats.com/chinese-beef-and-broccoli-extra-saucy-take-out-style/?utm_source=pocket_shared
+tags:
+    - beef 
+    - chinese-american 
+    - stir-fry 
+    - broccoli
+date: 2025-02-09
+---
 
 ## Ingredients
 
@@ -39,6 +46,3 @@
 - Pour in sauce, water and shiitake mushrooms and mix quickly
 - When sauce is bubbling, add vegetables, stir to coat, then let simmer for 1 minute or until sauce thickens
 - Serve immediately over rice and garnish with sesame seeds.
-
-## Tags
-#beef #chinese-american #stir-fry #broccoli

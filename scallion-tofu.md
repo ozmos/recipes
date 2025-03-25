@@ -1,6 +1,15 @@
-# Scallion tofu (Cōng shāo dòufu 葱烧豆腐)
+---
+title: 'Scallion tofu (Cōng shāo dòufu 葱烧豆腐)'
+tags:
+    - scallion 
+    - green-onion 
+    - tofu 
+    - chinese 
+    - vegetarian 
+    - doufu
+source: https://www.xiaohongshu.com/explore/65d45dcd0000000001028abc
+---
 
-[source](https://www.xiaohongshu.com/explore/65d45dcd0000000001028abc?xsec_token=ABkDairmsohiLA2L_qAOqrIeW9kM2ozBSyvBeAIT2d5Uc=&xsec_source=)
 
 ## Ingredients
 - 1 piece lao doufu (hard tofu) (approx 300g)
@@ -24,6 +33,3 @@
 
 ## Notes
 - Tofu can be presliced first if a neater appearance is desired. This may also help prevent the tofu sticking to the pan.
-
-## Tags
-#scallion #green-onion #tofu #chinese #vegetarian #doufu

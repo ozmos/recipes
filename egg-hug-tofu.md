@@ -1,6 +1,13 @@
-# Egg hug tofu (Jīdàn bào dòufu 鸡蛋抱豆腐)
-
-[source](https://www.xiaohongshu.com/explore/6419a69a00000000130007ca?xsec_token=ABSiTb4Y635mQJiKTgUilusx_vZOVZjMub1kBj1JVriMA=&xsec_source=pc_user&source=web_user_page)
+---
+title: 'Egg hug tofu (Jīdàn bào dòufu 鸡蛋抱豆腐)'
+source: https://www.xiaohongshu.com/explore/6419a69a00000000130007
+tags: 
+    - vegetarian 
+    - chinese 
+    - tofu 
+    - doufu 
+    - scallion
+---
 
 ## Ingredients
 
@@ -42,6 +49,3 @@
 - stir fry 1 minute until tofu absorbs the sauce
 - garnish with spring onion when ready to serve
 - serve with white rice and veggies
-
-## Tags
-#vegetarian #chinese #tofu #doufu #scallion

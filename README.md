@@ -1,4 +1,7 @@
-# Collection of recipes
+---
+title: 'Collection of recipes'
+permalink: /index.html
+---
 Sources provided when recipe is copied or adapted.
 
 ## Index 

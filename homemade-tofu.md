@@ -1,6 +1,13 @@
+---
+tags: 
+    - tofu 
+    - spicy 
+    - chinese 
+    - xiahongshu
+date: 2025-03-21
+source: http://xhslink.com/a/90m567Qrubn8
+---
 # Homemade Tofu (Jiācháng dòufu 家常豆腐)
-
-[Source](http://xhslink.com/a/90m567Qrubn8)
 
 ## Ingredients
 
@@ -36,7 +43,5 @@
 - Remove lid and add green onion
 - Stir fry briefly then serve with steamed rice
 
-## Tags
-#tofu #spicy #chinese #xiahongshu
 
 

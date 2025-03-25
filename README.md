@@ -1,6 +1,4 @@
----
-title: 'Collection of recipes'
----
+# Collection of recipes
 Sources provided when recipe is copied or adapted.
 
 ## Index 

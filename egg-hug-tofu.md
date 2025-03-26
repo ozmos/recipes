@@ -7,6 +7,7 @@ tags:
     - tofu 
     - doufu 
     - scallion
+date: 2025-02-09
 ---
 
 ## Ingredients

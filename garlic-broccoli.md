@@ -7,7 +7,7 @@ tags:
     - garlic 
     - vegetarian 
     - vegetables
-
+date: 2025-02-11
 ---
 
 ## Ingredients

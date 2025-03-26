@@ -8,6 +8,7 @@ tags:
     - vegetarian 
     - doufu
 source: https://www.xiaohongshu.com/explore/65d45dcd0000000001028abc
+date: 2025-02-09
 ---
 
 
@@ -21,7 +22,7 @@ source: https://www.xiaohongshu.com/explore/65d45dcd0000000001028abc
 - dash of dark soy
 - 1 spoon corn flour
 - half cup water
-- 1 big scallion chopped up
+- 1 scallion chopped up
 
 ## Method
 - heat oil

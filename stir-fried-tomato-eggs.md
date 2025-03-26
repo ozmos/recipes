@@ -4,6 +4,7 @@ source: https://www.xiaohongshu.com/discovery/item/678930c30000000021001667?sour
 tags:
     - eggs 
     - vegetarian
+date: 2025-02-22
 ---
 
 ## Ingredients

@@ -3,7 +3,7 @@ title: 'Beef & Broccoli'
 source: https://www.recipetineats.com/chinese-beef-and-broccoli-extra-saucy-take-out-style/?utm_source=pocket_shared
 tags:
     - beef 
-    - chinese-american 
+    - chinese-american
     - stir-fry 
     - broccoli
 date: 2025-02-09

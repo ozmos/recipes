@@ -17,7 +17,7 @@ date: 2025-02-09
 
 ### Sauce
 - 2 spoons light soy
-- 1 spoon oyster sauce
+- 1 spoon vegetarian stir-fry sauce or mushroom sauce
 - 1 spoon rice vinegar
 - dash of dark soy
 - 1 spoon corn flour

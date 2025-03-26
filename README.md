@@ -11,5 +11,5 @@ Sources provided when recipe is copied or adapted.
 - [Broccoli beef](broccoli-beef)
 - [Garlic Broccoli](garlic-broccoli)
 - [Stir Fried Tomato Eggs](stir-fried-tomato-eggs)
-- [Homemade Tofu](homemade-tofu)
+- [Homestyle Tofu](homestyle-tofu)
 - [Fish Patties](fish-patties)

@@ -13,3 +13,4 @@ Sources provided when recipe is copied or adapted.
 - [Stir Fried Tomato Eggs](stir-fried-tomato-eggs)
 - [Homestyle Tofu](homestyle-tofu)
 - [Fish Patties](fish-patties)
+- [Cashew Chicken](cashew-chicken)

@@ -14,3 +14,4 @@ Sources provided when recipe is copied or adapted.
 - [Homestyle Tofu](homestyle-tofu)
 - [Fish Patties](fish-patties)
 - [Cashew Chicken](cashew-chicken)
+- [Lemon Chicken](lemon-chicken)

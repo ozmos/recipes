@@ -18,4 +18,4 @@ Sources provided when recipe is copied or adapted.
     {% endfor %}
 </ul>
 
-## [Tags](/tags)
+## [Tags]({{ site.baseurl }}/tags)

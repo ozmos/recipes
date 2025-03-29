@@ -11,7 +11,7 @@ Sources provided when recipe is copied or adapted.
 <ul>
     {% for recipe in site.recipes %}
       <li>
-        <a href="{{ recipe.url }}">
+        <a href="{{ site.baseurl }}{{ recipe.url }}">
           {{ recipe.title }}
         </a>
       </li>

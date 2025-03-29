@@ -5,8 +5,8 @@ source: https://thewoksoflife.com/cashew-chicken/#recipe
 tags:
     - chicken
     - stir-fry
-    - american-chinese
     - chinese-american
+layout: recipe
 ---
 
 ## Ingredients

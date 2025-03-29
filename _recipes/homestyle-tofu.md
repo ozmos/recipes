@@ -3,10 +3,11 @@ tags:
     - tofu 
     - spicy 
     - chinese 
-    - xiahongshu
+    - xiaohongshu
 date: 2025-03-21
 source: http://xhslink.com/a/90m567Qrubn8
 title: 'Homestyle Tofu (Jiācháng dòufu 家常豆腐)'
+layout: recipe
 ---
 
 ## Ingredients

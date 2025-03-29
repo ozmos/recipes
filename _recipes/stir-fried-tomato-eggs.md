@@ -5,6 +5,7 @@ tags:
     - eggs 
     - vegetarian
 date: 2025-02-22
+layout: recipe
 ---
 
 ## Ingredients

@@ -7,8 +7,10 @@ tags:
     - chinese 
     - vegetarian 
     - doufu
+    - xiaohongshu
 source: https://www.xiaohongshu.com/explore/65d45dcd0000000001028abc
 date: 2025-02-09
+layout: recipe
 ---
 
 

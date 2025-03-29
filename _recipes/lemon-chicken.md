@@ -1,6 +1,7 @@
 ---
 title: 'Lemon Chicken'
 date: 2025-03-28
+layout: recipe
 tags:
     - chicken
     - lemon

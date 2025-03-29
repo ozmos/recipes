@@ -7,6 +7,7 @@ tags:
     - stir-fry 
     - broccoli
 date: 2025-02-09
+layout: recipe
 ---
 
 ## Ingredients

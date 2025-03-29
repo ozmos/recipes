@@ -1,1 +1,5 @@
 .obsidian/
+_site/
+vendor/
+.bundle/
+.devcontainer/

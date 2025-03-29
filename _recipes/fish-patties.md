@@ -6,6 +6,7 @@ tags:
     - tuna
     - crumbed
     - shallow-fry
+layout: recipe
 ---
 
 ## Ingredients

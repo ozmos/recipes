@@ -8,7 +8,7 @@ title: Tags
 {% for tag in group_names %}
 {% assign posts = group_items[forloop.index0] %}
 
-<h3 id="{{ tag }}">{{ tag }}</h3>
+<h3 class="tag-heading" id="{{ tag }}">{{ tag }}</h3>
 <ul>
     {% for post in posts %}
     <li>

@@ -2,6 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
+:root {
+    --highlight: #FF4500;
+    --compliment: #FF6A33;
+}
+
 body {
     font-size: 18px;
 }
@@ -11,7 +16,7 @@ h1, site-title {
 }
 
 a {
-    color: orangered;
+    color: #ff4500;
 }
 
 li a {
@@ -36,4 +41,11 @@ li a {
 }
 .tags ul li {
     display: inline;
+}
+.main-article {
+    margin-top: 24px;
+}
+.tag-heading:target {
+    text-decoration: underline;
+    color: var(--compliment);
 }

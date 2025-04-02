@@ -9,7 +9,9 @@ layout: default
     <p class="view">Original: <a href="{{ page.source }}">{{ page.source }}</a></p>
 {% endif %}
 
-{{ content }}
+<article class="main-article">
+    {{ content }}
+</article>
 
 {% if page.tags %}
     <aside class="tags">tags: 

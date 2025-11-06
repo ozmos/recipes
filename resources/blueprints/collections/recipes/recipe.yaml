@@ -1,0 +1,84 @@
+title: Recipe
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              display: Title
+              validate:
+                - required
+          -
+            handle: content
+            field:
+              remove_empty_nodes: false
+              type: bard
+              display: Content
+          -
+            handle: ingredients_sections
+            field:
+              collapse: accordion
+              type: replicator
+              display: 'Ingredients Sections'
+              sets:
+                new_set_group:
+                  display: 'New Set Group'
+                  sets:
+                    new_ingredients_section:
+                      display: 'New Ingredients Section'
+                      fields:
+                        -
+                          handle: title
+                          field:
+                            type: text
+                            display: Title
+                            instructions: 'e.g. Sauce ingredients'
+                        -
+                          handle: items
+                          field:
+                            type: list
+                            display: Items
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: excerpt
+            field:
+              type: textarea
+              display: Excerpt
+              character_limit: 160
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: date
+            field:
+              type: date
+              required: true
+              default: now
+              validate:
+                - required
+          -
+            handle: topics
+            field:
+              type: terms
+              taxonomies:
+                - topics
+              display: Topics
+              mode: select
+          -
+            handle: author
+            field:
+              type: users
+              display: Author
+              default: current

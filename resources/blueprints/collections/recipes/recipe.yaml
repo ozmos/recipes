@@ -16,9 +16,11 @@ tabs:
           -
             handle: content
             field:
-              remove_empty_nodes: false
+              remove_empty_nodes: true
               type: bard
               display: Content
+              container: assets
+              collapse: true
           -
             handle: ingredients_sections
             field:
@@ -43,6 +45,39 @@ tabs:
                           field:
                             type: list
                             display: Items
+          -
+            handle: method
+            field:
+              collapse: true
+              type: replicator
+              display: Method
+              sets:
+                new_set_group:
+                  display: 'New Set Group'
+                  sets:
+                    new_set:
+                      display: 'New Set'
+                      fields:
+                        -
+                          handle: step
+                          field:
+                            buttons:
+                              - h3
+                              - bold
+                              - italic
+                              - unorderedlist
+                              - orderedlist
+                              - removeformat
+                              - quote
+                              - anchor
+                              - image
+                              - table
+                              - underline
+                              - h4
+                            remove_empty_nodes: true
+                            type: bard
+                            display: Step
+                            container: assets
   sidebar:
     display: Sidebar
     sections:
@@ -82,3 +117,9 @@ tabs:
               type: users
               display: Author
               default: current
+          -
+            handle: source
+            field:
+              type: link
+              display: Source
+              instructions: 'Reference the original recipe if not original / passed down'

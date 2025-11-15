@@ -9,16 +9,31 @@
             {{ /if }}
             on {{ date format="M j, Y" }}
         </div>
-        <div class="content">
+        <section class="content content--intro">
             {{ content | widont }}
-            {{ ingredients_sections }}
-                <h2>{{ title }}</h2>
-                <ul>
-                    {{ items }}
-                        <li>{{ value }}</li>
-                    {{ /items }}
-                </ul>
-            {{ /ingredients_sections }}
-        </div>
+        </section>
+        <section id="recipe" class="recipe content">
+            {{ if ingredients_sections }}
+                <h2>Ingredients</h2>
+                {{ ingredients_sections }}
+                    <h3>{{ title }}</h3>
+                    <ul>
+                        {{ items }}
+                            <li>{{ value }}</li>
+                        {{ /items }}
+                    </ul>
+                {{ /ingredients_sections }}
+            {{ /if }}
+            {{ if method }}
+                <h2>Method</h2>
+                <ol class="recipe__method ml-6">
+                    {{ method }}
+                        <li class="recipe__step content marker:!text-xl marker:!font-semibold">
+                            {{ step }}
+                        </li>
+                    {{ /method }}
+                </ol>
+            {{ /if }}
+        </section>
     </article>
 </div>

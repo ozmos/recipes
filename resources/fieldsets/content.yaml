@@ -1,0 +1,43 @@
+title: Content
+fields:
+  -
+    handle: content
+    field:
+      remove_empty_nodes: false
+      type: bard
+      display: Content
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - unorderedlist
+        - orderedlist
+        - removeformat
+        - quote
+        - anchor
+        - table
+        - h4
+        - h5
+        - h6
+        - underline
+        - strikethrough
+        - small
+        - superscript
+        - subscript
+        - horizontalrule
+        - alignleft
+        - aligncenter
+        - alignright
+        - alignjustify
+      sets:
+        images:
+          display: Images
+          icon: media-image-picture-gallery
+          sets:
+            block_image:
+              display: 'Block image'
+              icon: media-image-picture-orientation
+              fields:
+                -
+                  import: image

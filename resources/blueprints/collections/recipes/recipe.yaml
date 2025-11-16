@@ -14,13 +14,8 @@ tabs:
               validate:
                 - required
           -
-            handle: content
-            field:
-              remove_empty_nodes: true
-              type: bard
-              display: Content
-              container: assets
-              collapse: true
+            import: content
+            prefix: intro_
           -
             handle: ingredients_sections
             field:
@@ -59,25 +54,8 @@ tabs:
                       display: 'New Set'
                       fields:
                         -
-                          handle: step
-                          field:
-                            buttons:
-                              - h3
-                              - bold
-                              - italic
-                              - unorderedlist
-                              - orderedlist
-                              - removeformat
-                              - quote
-                              - anchor
-                              - image
-                              - table
-                              - underline
-                              - h4
-                            remove_empty_nodes: true
-                            type: bard
-                            display: Step
-                            container: assets
+                          import: content
+                          prefix: step_
   sidebar:
     display: Sidebar
     sections:
@@ -123,3 +101,12 @@ tabs:
               type: link
               display: Source
               instructions: 'Reference the original recipe if not original / passed down'
+          -
+            handle: featured_image
+            field:
+              max_files: 1
+              container: assets
+              folder: content
+              dynamic: slug
+              type: assets
+              display: 'Featured Image'

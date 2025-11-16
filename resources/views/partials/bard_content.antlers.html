@@ -1,0 +1,6 @@
+{{ if type == "text" }}
+    {{ text }}
+{{ else }}
+<!-- {{ type }} -->
+    {{ partial:if_exists src="sets/{type}" }}
+{{ /if }}

@@ -10,7 +10,17 @@
             on {{ date format="M j, Y" }}
         </div>
         <section class="content content--intro">
-            {{ content | widont }}
+            {{ featured_image }}
+                <figure class="space-y-2 mb-12">
+                    <img class="!m-0" src="{{ glide :src='url' width='672' }}" width="672" alt="{{ alt ?? title }}">
+                    {{ if caption }}
+                        <figcaption>{{ caption }}</figcaption>
+                    {{ /if}}
+                </figure>
+            {{ /featured_image }}
+            {{ intro_content }}
+                {{ partial:bard_content }}
+            {{ /intro_content }}
         </section>
         <section id="recipe" class="recipe content">
             {{ if ingredients_sections }}
@@ -29,7 +39,9 @@
                 <ol class="recipe__method ml-6">
                     {{ method }}
                         <li class="recipe__step content marker:!text-xl marker:!font-semibold">
-                            {{ step }}
+                            {{ step_content }}
+                                {{ partial:bard_content }}
+                            {{ /step_content }}
                         </li>
                     {{ /method }}
                 </ol>

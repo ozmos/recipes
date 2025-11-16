@@ -1,0 +1,10 @@
+{{ image }}
+    <figure class="space-y-2 mb-12">
+        {{ glide :src="url" }}
+        <img class="!m-0" src="{{ url }}" width="{{ width <= 672 ? width : 672 }}" alt="{{ alt ?? title }}">
+        {{ /glide }}
+        {{ if caption }}
+            <figcaption>{{ caption }}</figcaption>
+        {{ /if}}
+    </figure>
+{{ /image }}

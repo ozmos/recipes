@@ -26,7 +26,7 @@
             {{ if ingredients_sections }}
                 <h2>Ingredients</h2>
                 {{ ingredients_sections }}
-                    <h3>{{ title }}</h3>
+                    <h3>{{ name }}</h3>
                     <ul>
                         {{ items }}
                             <li>{{ value }}</li>
@@ -36,15 +36,20 @@
             {{ /if }}
             {{ if method }}
                 <h2>Method</h2>
-                <ol class="recipe__method ml-6">
-                    {{ method }}
-                        <li class="recipe__step content marker:!text-xl marker:!font-semibold">
-                            {{ step_content }}
-                                {{ partial:bard_content }}
-                            {{ /step_content }}
-                        </li>
-                    {{ /method }}
-                </ol>
+                {{ step_number = 1 }}
+                {{ method }}
+                    {{ if name }}
+                        <h3>{{ name }}</h3>
+                    {{ /if }}
+                    <ol start="{{ step_number }}" class="recipe__method">
+                        {{ steps }}
+                            {{ step_number += 1 }}
+                            <li class="recipe__step content marker:!text-xl marker:!font-semibold">
+                                {{ step_content }}
+                            </li>
+                        {{ /steps }}
+                    </ol>
+                {{ /method }}
             {{ /if }}
         </section>
     </article>

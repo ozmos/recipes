@@ -30,10 +30,10 @@ tabs:
                       display: 'New Ingredients Section'
                       fields:
                         -
-                          handle: title
+                          handle: name
                           field:
                             type: text
-                            display: Title
+                            display: Name
                             instructions: 'e.g. Sauce ingredients'
                         -
                           handle: items
@@ -50,12 +50,39 @@ tabs:
                 new_set_group:
                   display: 'New Set Group'
                   sets:
-                    new_set:
-                      display: 'New Set'
+                    step:
+                      display: Step
                       fields:
                         -
-                          import: content
-                          prefix: step_
+                          handle: name
+                          field:
+                            type: text
+                            display: Name
+                            instructions: 'e.g. Preparation'
+                        -
+                          handle: steps
+                          field:
+                            type: replicator
+                            display: Steps
+                            sets:
+                              new_set_group:
+                                display: 'New Set Group'
+                                sets:
+                                  step:
+                                    display: Step
+                                    fields:
+                                      -
+                                        handle: step_content
+                                        field:
+                                          buttons:
+                                            - bold
+                                            - italic
+                                            - anchor
+                                            - underline
+                                          remove_empty_nodes: false
+                                          type: bard
+                                          display: 'Step Content'
+                                          inline: break
   sidebar:
     display: Sidebar
     sections:

@@ -26,10 +26,6 @@ fields:
         - superscript
         - subscript
         - horizontalrule
-        - alignleft
-        - aligncenter
-        - alignright
-        - alignjustify
       sets:
         images:
           display: Images

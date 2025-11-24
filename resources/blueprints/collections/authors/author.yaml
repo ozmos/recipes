@@ -1,4 +1,3 @@
-title: Topic
 tabs:
   main:
     display: Main
@@ -10,9 +9,19 @@ tabs:
             field:
               type: text
               required: true
-              display: Title
               validate:
                 - required
+          -
+            handle: name
+            field:
+              type: text
+              display: Name
+          -
+            handle: email
+            field:
+              input_type: email
+              type: text
+              display: email
   sidebar:
     display: Sidebar
     sections:
@@ -22,7 +31,6 @@ tabs:
             handle: slug
             field:
               type: slug
-              required: true
-              validate:
-                - required
-                - 'max:200'
+              localizable: true
+              validate: 'max:200'
+title: Author

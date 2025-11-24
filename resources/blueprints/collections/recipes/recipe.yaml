@@ -109,6 +109,14 @@ tabs:
               validate:
                 - required
           -
+            handle: author
+            field:
+              max_items: 1
+              collections:
+                - authors
+              type: entries
+              display: Author
+          -
             handle: topics
             field:
               type: terms
@@ -116,12 +124,6 @@ tabs:
                 - topics
               display: Topics
               mode: select
-          -
-            handle: author
-            field:
-              type: users
-              display: Author
-              default: current
           -
             handle: source
             field:
@@ -137,3 +139,8 @@ tabs:
               dynamic: slug
               type: assets
               display: 'Featured Image'
+          -
+            handle: servings
+            field:
+              type: text
+              display: Servings

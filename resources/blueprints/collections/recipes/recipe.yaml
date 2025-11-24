@@ -47,11 +47,11 @@ tabs:
               type: replicator
               display: Method
               sets:
-                new_set_group:
-                  display: 'New Set Group'
+                new_method_section:
+                  display: 'New Method Section'
                   sets:
-                    step:
-                      display: Step
+                    method_section:
+                      display: 'Method section'
                       fields:
                         -
                           handle: name

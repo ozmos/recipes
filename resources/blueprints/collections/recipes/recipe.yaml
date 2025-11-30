@@ -38,8 +38,18 @@ tabs:
                         -
                           handle: items
                           field:
-                            type: list
+                            type: replicator
                             display: Items
+                            sets:
+                              new_set_group:
+                                display: 'New Set Group'
+                                sets:
+                                  item:
+                                    display: Item
+                                    fields:
+                                      -
+                                        handle: inline_content
+                                        field: common.inline_content
           -
             handle: method
             field:
@@ -72,17 +82,8 @@ tabs:
                                     display: Step
                                     fields:
                                       -
-                                        handle: step_content
-                                        field:
-                                          buttons:
-                                            - bold
-                                            - italic
-                                            - anchor
-                                            - underline
-                                          remove_empty_nodes: false
-                                          type: bard
-                                          display: 'Step Content'
-                                          inline: break
+                                        handle: inline_content
+                                        field: common.inline_content
   sidebar:
     display: Sidebar
     sections:

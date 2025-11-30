@@ -29,7 +29,7 @@
                     <h3>{{ name }}</h3>
                     <ul>
                         {{ items }}
-                            <li>{{ value }}</li>
+                            <li>{{ inline_content }}</li>
                         {{ /items }}
                     </ul>
                 {{ /ingredients_sections }}
@@ -45,7 +45,7 @@
                         {{ steps }}
                             {{ step_number += 1 }}
                             <li class="recipe__step content marker:!text-xl marker:!font-semibold">
-                                {{ step_content }}
+                                {{ inline_content }}
                             </li>
                         {{ /steps }}
                     </ol>

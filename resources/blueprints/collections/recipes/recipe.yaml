@@ -22,6 +22,7 @@ tabs:
               collapse: accordion
               type: replicator
               display: 'Ingredients Sections'
+              instructions: "Add one or more ingredients sections, each section can have a name and a list of ingredients. If you don't need to split the ingredients into sections, simply add the items without filling in the name."
               sets:
                 new_set_group:
                   display: 'New Set Group'
@@ -34,7 +35,7 @@ tabs:
                           field:
                             type: text
                             display: Name
-                            instructions: 'e.g. Sauce ingredients'
+                            instructions: 'e.g. Sauce ingredients (leave blank if not using multiple ingredients sections)'
                         -
                           handle: items
                           field:
@@ -68,7 +69,7 @@ tabs:
                           field:
                             type: text
                             display: Name
-                            instructions: 'e.g. Preparation'
+                            instructions: 'e.g. Preparation (leave blank if not using multiple method sections)'
                         -
                           handle: steps
                           field:
@@ -84,6 +85,9 @@ tabs:
                                       -
                                         handle: inline_content
                                         field: common.inline_content
+          -
+            handle: notes
+            field: common.notes
   sidebar:
     display: Sidebar
     sections:
@@ -117,6 +121,8 @@ tabs:
                 - authors
               type: entries
               display: Author
+              validate:
+                - required
           -
             handle: topics
             field:

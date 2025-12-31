@@ -51,6 +51,10 @@
                     </ol>
                 {{ /method }}
             {{ /if }}
+            {{ if notes }}
+                <h2>Notes</h2>
+                {{ notes }}
+            {{ /if }}
         </section>
         {{ if source }}
             <a class="block my-12" href="{{ source }}">Source</a>

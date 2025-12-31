@@ -82,7 +82,21 @@ fields:
         - italic
         - anchor
         - underline
+        - superscript
       remove_empty_nodes: false
       type: bard
       display: 'Inline Content'
       inline: break
+  -
+    handle: notes
+    field:
+      buttons:
+        - h2
+        - h3
+        - bold
+        - italic
+        - anchor
+        - image
+      remove_empty_nodes: false
+      type: bard
+      display: Notes

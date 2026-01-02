@@ -19,11 +19,11 @@ node_modules/
 /.zed
 /auth.json
 /node_modules
-/public/build
+# /public/build
 /public/hot
 /public/static
 /public/storage
-/public/vendor/statamic
+# /public/vendor/statamic
 /storage/*.key
 /storage/pail
 /vendor

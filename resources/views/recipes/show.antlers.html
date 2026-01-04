@@ -1,0 +1,63 @@
+<div class="max-w-5xl mx-auto relative mt-16 content">
+    {{ svg src="/assets/site/scratches" class="absolute text-gray-800 mt-8 top-0 left-0 w-20 hidden md:block" }}
+    <article class="lg:py-32 max-w-2xl mx-auto">
+        <h1>{{ title }}</h1>
+        <div class="bg-gray-800 inline-block text-sm mb-16 pr-4 pl-16 -ml-16 uppercase tracking-widest text-white py-1 rounded-r-full">
+            Published
+            {{ if topics }}
+                in {{ topics }}<a href="{{ url }}" class="text-teal-light no-underline hover:text-white">{{ title }}</a>{{ unless last }}, {{ /unless }}{{ /topics }}
+            {{ /if }}
+            on {{ date format="M j, Y" }}
+        </div>
+        <section class="content content--intro">
+            {{ featured_image }}
+                <figure class="space-y-2 mb-12">
+                    <img class="!m-0" src="{{ glide :src='url' width='672' }}" width="672" alt="{{ alt ?? title }}">
+                    {{ if caption }}
+                        <figcaption>{{ caption }}</figcaption>
+                    {{ /if}}
+                </figure>
+            {{ /featured_image }}
+            {{ intro_content }}
+                {{ partial:bard_content }}
+            {{ /intro_content }}
+        </section>
+        <section id="recipe" class="recipe content">
+            {{ if ingredients_sections }}
+                <h2>Ingredients</h2>
+                {{ ingredients_sections }}
+                    <h3>{{ name }}</h3>
+                    <ul>
+                        {{ items }}
+                            <li>{{ inline_content }}</li>
+                        {{ /items }}
+                    </ul>
+                {{ /ingredients_sections }}
+            {{ /if }}
+            {{ if method }}
+                <h2>Method</h2>
+                {{ step_number = 1 }}
+                {{ method }}
+                    {{ if name }}
+                        <h3>{{ name }}</h3>
+                    {{ /if }}
+                    <ol start="{{ step_number }}" class="recipe__method">
+                        {{ steps }}
+                            {{ step_number += 1 }}
+                            <li class="recipe__step content marker:!text-xl marker:!font-semibold">
+                                {{ inline_content }}
+                            </li>
+                        {{ /steps }}
+                    </ol>
+                {{ /method }}
+            {{ /if }}
+            {{ if notes }}
+                <h2>Notes</h2>
+                {{ notes }}
+            {{ /if }}
+        </section>
+        {{ if source }}
+            <a class="block my-12" href="{{ source }}">Source</a>
+        {{ /if }}
+    </article>
+</div>

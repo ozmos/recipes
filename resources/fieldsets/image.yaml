@@ -1,0 +1,18 @@
+title: Image
+fields:
+  -
+    handle: image
+    field: common.image
+    config:
+      container: assets
+      width: 50
+      folder: content
+      dynamic: slug
+  -
+    handle: caption
+    field:
+      input_type: text
+      type: text
+      localizable: true
+      listable: hidden
+      display: Caption

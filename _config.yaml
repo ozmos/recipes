@@ -1,7 +1,0 @@
-remote_theme: pages-themes/minimal@v0.2.0
-baseurl: "/recipes"
-plugins:
-  - jekyll-remote-theme
-collections:
-  recipes:
-    output: true

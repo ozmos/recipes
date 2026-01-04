@@ -1,12 +1,15 @@
 <div class="max-w-5xl mx-auto relative py-16 lg:pt-40 lg:pb-32">
     <article class="content">
         <p class="font-medium text-lg text-teal">{{ subtitle }}</p>
-        <h1>{{ content }}</h1>
+        <h1>{{ headline ?? title }}</h1>
+        <div class="content">
+            {{ content }}
+        </div>
     </article>
 </div>
 
 <div class="max-w-2xl mx-auto mb-32">
-    {{ collection:recipes limit="5" as="recipes" }}
+    {{ collection:recipes limit="10" as="recipes" }}
         {{ if no_results }}
             <h2 class="text-3xl italic tracking-tight">No recipes yet</h2>
         {{ /if }}
@@ -23,6 +26,9 @@
                     {{ excerpt | widont ?? content | strip_tags | safe_truncate(150, '...') }}
                 </p>
             </div>
-        {{ /recipes }}
+            {{ /recipes }}
+            <div class="content">
+                <a href="{{ link id="b9e4bfe3-9c12-4553-b7ef-f43c22ffaa63" }}">All recipes</a>
+            </div>
     {{ /collection:recipes }}
 </div>

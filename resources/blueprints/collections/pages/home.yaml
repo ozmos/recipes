@@ -15,6 +15,12 @@ tabs:
               validate:
                 - required
           -
+            handle: headline
+            field:
+              character_limit: 0
+              type: text
+              display: Headline
+          -
             handle: subtitle
             field:
               character_limit: 0
